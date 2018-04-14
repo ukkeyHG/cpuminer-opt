@@ -159,6 +159,9 @@ Support for even older x86_64 without AES_NI or SSE2 is not availble.
 
 Change Log
 ----------
+v3.8.7.2-mod
+Added yescryptr16v2 algo for PPTP coin.
+
 
 v3.8.7.2
 

@@ -121,6 +121,7 @@ Supported Algorithms
                           yescryptr8   BitZeny (ZNY)
                           yescryptr16  Yenten (YTN)
                           yescryptr32  WAVI
+                          yescryptr16v2  PPTP
                           zr5          Ziftr
 
 Errata

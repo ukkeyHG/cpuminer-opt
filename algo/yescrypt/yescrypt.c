@@ -481,3 +481,15 @@ bool register_yescryptr32_algo( algo_gate_t* gate )
    return true;
 }
 
+bool register_yescryptr16v2_algo( algo_gate_t* gate )
+{
+   yescrypt_gate_base( gate );
+   gate->get_max64  = (void*)&yescryptr16_get_max64;
+   yescrypt_client_key = "PPTPPubKey";
+   yescrypt_client_key_len = 10;
+   YESCRYPT_N = 4096;
+   YESCRYPT_R = 16;
+   YESCRYPT_P = 4;
+   return true;
+}
+
